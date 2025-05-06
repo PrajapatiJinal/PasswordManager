@@ -69,7 +69,7 @@ fun HomeScreen(
                             .fillMaxWidth()
                             .padding(vertical = 8.dp)
                             .clickable { onPasswordClick(entry) },
-                        shape = RoundedCornerShape(20.dp),
+                        shape = RoundedCornerShape(40.dp),
                         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
                     ) {
                         Row(
@@ -80,14 +80,12 @@ fun HomeScreen(
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             Column(
-                                modifier = Modifier.weight(1f)
+                                modifier = Modifier.weight(0.5f)
                             ) {
                                 Text(
                                     entry.accountType,
                                     style = MaterialTheme.typography.titleLarge,
-                                    color = Color.Black,
-                                    fontSize = 22.sp,
-                                    fontWeight = FontWeight.Bold
+                                    color = Color.Black
                                 )
                             }
                             Row(

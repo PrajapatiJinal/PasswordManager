@@ -73,4 +73,7 @@ dependencies {
     annotationProcessor(libs.androidx.room.compiler)
     ksp(libs.androidx.room.compiler)
 
+    // Biometric
+    implementation(libs.androidx.biometric)
+
 }
