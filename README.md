@@ -1,2 +1,27 @@
-# PasswordManager
-This is a secure and user-friendly Password Manager Android application developed in Kotlin using Jetpack Compose, following the MVVM architecture pattern. It allows users to store, manage, and generate secure passwords, with AES encryption to ensure security.
+
+# 🔐 Password Manager App
+A secure, user-friendly password manager built using **Kotlin**, **Jetpack Compose**, and **Room Database**. This app allows users to securely store, view, edit, and generate passwords — all within a modern MVVM architecture using **Koin** for dependency injection.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Kotlin**
+- **Jetpack Compose**
+- **Room Database** (Local data persistence)
+- **AES Encryption** (Data security)
+- **MVVM Architecture**
+- **Koin** (Dependency Injection)
+
+---
+
+## ✅ Features
+
+- 🔐 Add, View, Edit, Delete passwords
+- 🔒 AES Encryption & Decryption
+- 🔍 View all saved credentials in a list
+- 🧠 Input validation (non-empty fields)
+- ⚙️ Random password generator
+- 🧰 MVVM architecture with Koin DI
+- 📱 Clean Jetpack Compose UI
+

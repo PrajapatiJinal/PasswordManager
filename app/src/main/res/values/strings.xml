@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PasswordManagement</string>
+    <string name="account_type_is_mandatory">Account Type is mandatory</string>
+    <string name="username_is_mandatory">Username is mandatory</string>
+    <string name="password_is_mandatory">Password is mandatory</string>
+    <string name="password_manager">Password Manager</string>
+    <string name="add_new_account">Add New Account</string>
+    <string name="account_details">Account Details</string>
+    <string name="account_name">Account Name</string>
+    <string name="username_email">Username/Email</string>
+    <string name="password">Password</string>
+    <string name="generate">Generate</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+</resources>
